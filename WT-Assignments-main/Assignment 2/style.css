@@ -1,0 +1,135 @@
+body {
+    background-color: #F6F6F6;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .login-box {
+    width: 400px;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 40px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  h1 {
+    margin-bottom: 30px;
+    text-align: center;
+    color: #2C2C2C;
+  }
+  
+  input {
+    display: block;
+    width: 100%;
+    padding: 12px 20px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #F5F5F5;
+    color: #2C2C2C;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #2C2C2C;
+  }
+  
+  .btn {
+    display: block;
+    width: 100%;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #2C2C2C;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background-color: #444444;
+  }
+  
+  .links {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .links a {
+    display: inline-block;
+    margin: 0px 10px;
+    font-size: 14px;
+    color: #2C2C2C;
+  }
+  
+  .links a:hover {
+    color: #444444;
+  }
+  
+  .input-group {
+    position: relative;
+  }
+  
+  .input-group input {
+    z-index: 1;
+  }
+  
+  .input-group label {
+    position: absolute;
+    left: 20px;
+    top: 12px;
+    color: #9B9B9B;
+    font-size: 16px;
+    font-weight: normal;
+    pointer-events: none;
+    transition: all 0.3s ease-out;
+  }
+  
+  .input-group input:focus + label,
+  .input-group input:not(:placeholder-shown) + label {
+    top: -12px;
+    left: 0;
+    color: #2C2C2C;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  .input-group input:focus {
+    outline: none;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .input-group input:focus + .bar:before,
+  .input-group input:focus + .bar:after {
+    width: 50%;
+  }
+  
+  .input-group .bar:before,
+  .input-group .bar:after {
+    content: '';
+    height: 2px;
+    width: 0;
+    bottom: 1px;
+    position: absolute;
+    background-color: #2C2C2C;
+    transition: all 0.3s ease-out;
+  }
+  
+  .input-group .bar:before {
+    left: 50%;
+  }
+  
+  .input-group .bar:after {
+    right: 50%;
+  }
+  

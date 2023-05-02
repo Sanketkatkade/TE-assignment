@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="..\style.css"?>
+<books>
+	<heading>Welcome to Indian Books Collection</heading>
+	<book>
+		<title>The God of Small Things</title>
+		<author>Arundhati Roy</author>
+		<publisher>Random House India</publisher>
+		<edition>1</edition>
+		<price>350</price>
+	</book>
+	<hr />
+	<book>
+		<title>The White Tiger</title>
+		<author>Aravind Adiga</author>
+		<publisher>HarperCollins India</publisher>
+		<edition>1</edition>
+		<price>399</price>
+	</book>
+	<hr />
+	<book>
+		<title>Train to Pakistan</title>
+		<author>Khushwant Singh</author>
+		<publisher>Penguin India</publisher>
+		<edition>1</edition>
+		<price>249</price>
+	</book>
+	<hr />
+	<book>
+		<title>Midnight's Children</title>
+		<author>Salman Rushdie</author>
+		<publisher>Penguin India</publisher>
+		<edition>1</edition>
+		<price>499</price>
+	</book>
+	<hr />
+	<book>
+		<title>The Palace of Illusions</title>
+		<author>Chitra Banerjee Divakaruni</author>
+		<publisher>Penguin India</publisher>
+		<edition>1</edition>
+		<price>499</price>
+	</book>
+	<hr />
+</books>

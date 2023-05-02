@@ -1,0 +1,47 @@
+books {
+  color: white;
+  background-color: gray;
+  width: 100%;
+  white-space: pre-line;
+}
+
+
+heading {
+  color: green;
+  font-size: 40px;
+  background-color: powderblue;
+}
+
+book {
+  margin-bottom: 20px;
+}
+
+title {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+author,
+publisher,
+edition,
+price {
+  display: block;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+author::before {
+  content: "Author: ";
+}
+
+publisher::before {
+  content: "Publisher: ";
+}
+
+edition::before {
+  content: "Edition: ";
+}
+
+price::before {
+  content: "Price: Rs. ";
+}
